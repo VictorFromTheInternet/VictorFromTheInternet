@@ -1,4 +1,7 @@
 ## Hi there 👋
+My name is Victor Arreola, I'm a Computer Science graduate from North East Texas Community College and currently an Application Developer for Guaranty Bank and Trust. 
+
+
 
 <!--
 **VictorFromTheInternet/VictorFromTheInternet** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
