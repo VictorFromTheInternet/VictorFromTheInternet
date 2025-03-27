@@ -15,8 +15,7 @@
   },
   "scripts": {
     "start": "vite",
-    "build": "vite build",
-    "test": "vitest",
+    "build": "vite build",    
     "predeploy":"npm run build",
     "deploy": "gh-pages -d build"
   },
