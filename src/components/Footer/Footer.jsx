@@ -14,22 +14,24 @@ export const Footer =()=>{
                 <div className={styles.footerMenuContainer}>
                     <h3 className={styles.footerTitle}>
                         Victor Arreola -
-                        Full Stack Developer
+                        <span>
+                            Full Stack Developer
+                        </span>
                     </h3>
 
                     <ul className={styles.footerMenu}>
                         <li>
-                            <a href={config.link_email}>
+                            <a href={config.link_email} aria-label="Email" title="Email">
                                 <img src={emailIcon} alt="Email" aria-label="Email" />
                             </a>
                         </li>
                         <li>
-                            <a href={config.link_linkedin}>
+                            <a href={config.link_linkedin} aria-label="LinkedIn" title="LinkedIn">
                                 <img src={linkedinIcon} alt="LinkedIn" aria-label="LinkedIn" />
                             </a>
                         </li>
                         <li>
-                            <a href={config.link_github}>
+                            <a href={config.link_github} aria-label="Github" title="Github">
                                 <img src={githubIcon} alt="Github" aria-label="Github" />
                             </a>
                         </li>                        
