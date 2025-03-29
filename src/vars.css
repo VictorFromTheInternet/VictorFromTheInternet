@@ -1,0 +1,19 @@
+:root{
+    /* color pallete */
+    --color-text: white;
+    --color-primary: #576cbc;
+    --color-secondary: #19376d;
+    --color-dark: #0b2447;
+    --color-bg: #04152d;
+    
+    --color-bg-primary: #61dafb;
+    --color-bg-secondary: #61dafb;
+    --color-ui-primary: #61dafb;
+    --color-ui-secondary: #61dafb;
+    --color-ui-accent: #61dafb;
+    --white: #fff;
+    --black: #000;
+
+    /* font vars */
+    --font-roboto: "Roboto"
+}
