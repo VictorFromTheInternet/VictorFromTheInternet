@@ -1,0 +1,6 @@
+@import '../../vars.css';
+
+.mainSection{
+    height: 100vh;
+    padding-top: 10vh;
+}

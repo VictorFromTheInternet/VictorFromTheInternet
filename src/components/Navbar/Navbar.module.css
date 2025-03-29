@@ -2,7 +2,7 @@
 
 
 .navbar{
-    position: relative;
+    position: sticky;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -10,6 +10,9 @@
     padding-top: 2rem;
     z-index: 1000;
     margin: 0 2rem;
+
+    height: 10vh;
+    top: 0;
 
     /* background-color: red; */
 }
