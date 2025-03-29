@@ -1,11 +1,13 @@
-import logo from './logo.svg';
 import styles from './App.module.css';
+import Navbar from './components/Navbar/Navbar.jsx';
 
 function App() {
   return (
     <>
-      <div className={styles.App}></div>
-      <h1>Hello World</h1>
+      <div className={styles.App}>
+        <Navbar />
+        
+      </div>      
     </>
   );
 }
