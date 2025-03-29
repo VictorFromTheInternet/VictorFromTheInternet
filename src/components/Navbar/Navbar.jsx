@@ -1,12 +1,13 @@
 import React from 'react'
+import styles from './Navbar.module.css'
 
 export const Navbar = () => {
     return (
     
-        <nav>
-            <a href="/">Portfolio</a>
-            <div>
-                <ul>
+        <nav className={styles.navbar}>
+            <a href="/" className={styles.title} >Portfolio</a>
+            <div className={styles.menu}>
+                <ul className={styles.menuItems}>
                     <li>
                         <a href="#about">About</a>
                     </li>
@@ -25,3 +26,5 @@ export const Navbar = () => {
     
     )  
 }
+
+export default Navbar;
