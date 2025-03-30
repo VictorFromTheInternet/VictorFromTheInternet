@@ -14,6 +14,7 @@
     height: 10vh;    
     /* padding-top: 1rem; */
 
+    z-index: 1000;
 }
 
 .navbar{    
@@ -22,15 +23,14 @@
     justify-content: space-between;
 
     margin: 1rem auto 0 auto;
-    padding: 1rem;
-    z-index: 1000;
+    padding: 1.25rem;    
     
     width: 100%; 
 
     /* background-color: red; */
     backdrop-filter: blur(10px);    
     background: linear-gradient(rgba(100,100,100,.5), rgba(100,100,100,.15));
-    border-radius: 1rem;
+    border-radius: 2rem;
 }
 
 .title{
@@ -61,4 +61,14 @@
     text-decoration: none;
 
     color: var(--color-text);
+
+    transition: all .25s ease-out;
+}
+
+.menuItems a:hover {
+    padding: .5rem;
+    background-color: rgba(255, 255, 255, .75);
+    color: black;
+    border-radius: .5rem;
+    box-shadow: rgb(0,0,0) 5px 5px 0px;
 }
