@@ -1,0 +1,13 @@
+@import '../../vars.css';
+
+.heroContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    max-width: 1200px !important;    
+    width: 80%;
+    height: 100vh;
+
+    margin: 0 auto ;
+}
