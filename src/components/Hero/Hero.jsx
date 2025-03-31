@@ -6,15 +6,16 @@ export const Hero = () =>{
     return(
         <>
             <section id="hero" className={styles.heroContainer}>
-                
-                <div className={styles.sectionCard}>
+                <div className={styles.filter}></div>
+
+                <div className={styles.heroSectionCard}>
                     <img src={getImageUrl('/hero/hero image v2.png')} alt="" />
-                    <h2>Victor Arreola</h2>
-                    <p>
+                    <h1 className={styles.heroTitle}>Victor Arreola</h1>
+                    <p className={styles.heroHook}>
                     Howdy! Meet your friendly neighborhood software developer.
                     </p>         
 
-                    <p>
+                    <p className={styles.heroDesc}>
                     Specializing in automating and streamlining business workflows. 
                     </p>           
                 </div>                

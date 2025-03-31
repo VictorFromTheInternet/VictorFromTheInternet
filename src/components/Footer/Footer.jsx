@@ -11,12 +11,11 @@ export const Footer =()=>{
             <div className={styles.footerContainer}>
                 <div className={styles.footer} id="contact">     
                     <div class={styles.footerMenuContainer}>
-                        <h2 className={styles.footerTitle}>
-                            Victor Arreola -
-                            <span>
-                                Full Stack Developer
-                            </span>
-                        </h2>
+                        <a href={config.link_linkedin} aria-label="LinkedIn" title="LinkedIn">
+                            <h2 className={styles.footerTitle} >
+                                Let's Connect !!!                            
+                            </h2>
+                        </a>                        
 
                         <ul className={styles.footerMenu}>
                             <li>

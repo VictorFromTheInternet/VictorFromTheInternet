@@ -8,11 +8,7 @@ export const About = () =>{
                 <div className={styles.sectionCard}>
                     <h2>About Me</h2>
                     <p>
-                    Howdy! Meet your friendly neighborhood software developer, turning ideas into reality through code. 
-                    </p>         
-
-                    <p>
-                    Specializing in automating and streamlining business workflows. Driven by a passion for solving technical problems and creating user-focused solutions that make lives easier. 
+                    Hi, I'm a full-stack developer turning ideas into reality through code specializing in automating and streamlining business workflows. Driven by a passion for solving technical problems and creating user-focused solutions that make lives easier. 
                     </p>           
                 </div>                
             </section>

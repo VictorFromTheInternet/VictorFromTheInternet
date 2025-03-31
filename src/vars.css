@@ -10,11 +10,15 @@ Source Code Pro
 :root{
     /* color pallete */
     --color-text: white;
+    /* --color-primary: #576cbc;
+    --color-secondary: #19376d;
+    --color-dark: #0b2447;
+    --color-bg: #04152d; */
     --color-primary: #576cbc;
     --color-secondary: #19376d;
     --color-dark: #0b2447;
-    --color-bg: #04152d;
-    
+    --color-bg: #232426;
+
     --color-bg-primary: #61dafb;
     --color-bg-secondary: #61dafb;
     --color-ui-primary: #61dafb;
@@ -36,8 +40,8 @@ Source Code Pro
     --bg-container-primary: #23232e;
     --bg-container-secondary: #141418;
 
-    --accent-color-secondary: #ff7eee;    
-    --accent-color-primary: #df49a6;    
+    --accent-color-secondary: #3f5362;    
+    --accent-color-primary: #405e61;    
 
     --transition-speed: 200ms;
 }

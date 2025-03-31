@@ -11,6 +11,7 @@
     height: 70vh;
 
     margin: 2rem auto 0 auto;
+    padding-top: 20vh;
 }
 
 .footer{
@@ -55,16 +56,32 @@
     gap: 2rem;
 }
 
+.footerMenuContainer a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
 .footerMenu a{
     font-size: 1rem;
     font-weight: 500;
     text-decoration: none;
 
     color: var(--color-text);
+    
+}
+
+.footerMenu img{
+    transition: all 500ms ease-out;
+}
+
+.footerMenu img:hover{
+    color: var(--color-primary);
+    width: 60px;
 }
 
 .footerTitle{
     font-weight: bold;
+    font-size: 2rem;
 }
 
 .footerTitle span{
