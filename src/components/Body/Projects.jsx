@@ -10,7 +10,23 @@ export const Projects = () =>{
                     <h2 className={styles.xl}>Projects</h2>
                     <div className={styles.skillsContainer}>
                         
-                        
+                        <div className={styles.projectCard}>                            
+                            <img src={getImageUrl('projects/project.png')} alt="" />
+                            <h4>Invoice Generator</h4>
+                            <p>A full stack app to generate a templated invoice based on form data. The tools implemented are: Express, Puppeteer & Nunjucks </p>
+                        </div>
+                        <div className={styles.projectCard}>                            
+                            <img src={getImageUrl('projects/project.png')} alt="" />
+                            <h4>JSON to CSV API</h4>
+                            <p>
+                                A Node.js API for converting JSON into a CSV formatted string, returned as base64 and a data url. 
+                            </p>
+                        </div>
+                        <div className={styles.projectCard}>                            
+                            <img src={getImageUrl('projects/project.png')} alt="" />
+                            <h4>Color Reducer</h4>
+                            <p>This project lets the user select colors and create a color-reduced version of the image. It works by creating a new array of rounded pixel values for the output image.</p>
+                        </div>
                     </div>      
                 </div>                                  
             </section>
