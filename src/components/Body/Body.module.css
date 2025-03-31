@@ -31,9 +31,14 @@
 /* 
     Experience 
 */
+.experienceList ul,
 .experienceList li{
-    padding-left: 20px !important;    
+    margin-left: 20px !important;        
 }
+.experienceList{    
+    margin: .5rem;
+}
+
 
 
 
@@ -64,12 +69,30 @@
     border-radius: 1rem;    
 }
 .projectCard img{
-    max-width: 100%;
+    width: 100%;
     max-height: 100%;
     border-radius: 0;
 }
 .projectCard h4,
 .projectCard p{
-    margin: .25rem;
+    margin: .5rem;
     text-align: justify;
+}
+
+
+/* tweaks */
+.italic{
+    font-style: italic;
+}
+.hero{
+    font-size: 6rem;
+}
+.xxl{
+    font-size: 4rem;
+}
+.xl{
+    font-size: 2rem;
+}
+.lg{
+    font-size: 1.5rem;
 }

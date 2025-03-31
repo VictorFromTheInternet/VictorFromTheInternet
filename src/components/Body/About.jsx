@@ -6,9 +6,9 @@ export const About = () =>{
         <>
             <section id="about" className={styles.mainSection}>
                 <div className={styles.sectionCard}>
-                    <h2>About Me</h2>
-                    <p>
-                    Hi, I'm a full-stack developer turning ideas into reality through code specializing in automating and streamlining business workflows. Driven by a passion for solving technical problems and creating user-focused solutions that make lives easier. 
+                    <h2 className={styles.hero}>About Me</h2>
+                    <p className={styles.xl}>
+                    I'm a full-stack developer, driven by a passion for solving technical problems and creating user-focused solutions. 
                     </p>           
                 </div>                
             </section>

@@ -12,11 +12,11 @@ export const Hero = () =>{
                     <img src={getImageUrl('/hero/hero image v2.png')} alt="" />
                     <h1 className={styles.heroTitle}>Victor Arreola</h1>
                     <p className={styles.heroHook}>
-                    Howdy! Meet your friendly neighborhood software developer.
+                    Meet your friendly neighborhood software developer 
                     </p>         
 
                     <p className={styles.heroDesc}>
-                    Specializing in automating and streamlining business workflows. 
+                    Let's make something together 🤝
                     </p>           
                 </div>                
             </section>

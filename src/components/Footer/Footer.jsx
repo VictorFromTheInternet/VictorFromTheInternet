@@ -13,7 +13,7 @@ export const Footer =()=>{
                     <div class={styles.footerMenuContainer}>
                         <a href={config.link_linkedin} aria-label="LinkedIn" title="LinkedIn">
                             <h2 className={styles.footerTitle} >
-                                Let's Connect !!!                            
+                                Contact Me                      
                             </h2>
                         </a>                        
 
