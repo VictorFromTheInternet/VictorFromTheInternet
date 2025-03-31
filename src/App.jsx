@@ -1,6 +1,6 @@
 import styles from './App.module.css';
 import {Hero} from './components/Hero/Hero.jsx'
-import {Navbar} from './components/navbar/navbar.jsx'
+import {Navbar} from './components/Navbar/Navbar.jsx'
 import {Footer} from './components/Footer/Footer.jsx'
 import {About} from './components/Body/About.jsx'
 import {Experience} from './components/Body/Experience.jsx'
