@@ -8,3 +8,17 @@
   font-family: "Outfit", Arial, Helvetica, sans-serif;
   /* font-family: var(--font-source-code-pro); */
 }
+body{
+  overflow-x: hidden;
+}
+
+/* scroll bar */
+body::-webkit-scrollbar{
+  width: .5rem;
+}
+body::-webkit-scrollbar-track{
+  background-color: var(--bg-primary);
+}
+body::-webkit-scrollbar-thumb{
+  background-color: var(--accent-color-primary);
+}

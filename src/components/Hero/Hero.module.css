@@ -4,10 +4,30 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
-    max-width: 1200px !important;    
-    width: 80%;
+        
+    width: 100vw;
     height: 100vh;
 
-    margin: 0 auto ;
+    margin: 0 ;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.heroContainer img {    
+    position: absolute;
+    top: 0;    
+    left: 0;
+        
+    width: 100vw;     
+    height: 100vh;
+    /* object-fit: cover; */
+    z-index: 0;
+}
+
+.heroContainer h2,
+.heroContainer p{
+    position: relative;
+    z-index: 1;
+    /* color: var(--color-text); */
 }

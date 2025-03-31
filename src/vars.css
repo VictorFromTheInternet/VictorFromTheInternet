@@ -24,10 +24,20 @@ Source Code Pro
     --black: #000;
 
     /* font vars */
-    --font-roboto: "Roboto", Arial, Helvetica, sans-serif;;
-    --font-nabla: "Nabla", Arial, Helvetica, sans-serif;;
-    --font-open-sans: "Open Sans", Arial, Helvetica, sans-serif;;
-    --font-source-code-pro: "Source Code Pro", Arial, Helvetica, sans-serif;;  
-    --font-roboto-mono: "Roboto Mono", Arial, Helvetica, sans-serif;;
-    --font-outfit: "Outfit", Arial, Helvetica, sans-serif;;
+    --font-roboto: "Roboto", Arial, Helvetica, sans-serif;
+    --font-nabla: "Nabla", Arial, Helvetica, sans-serif;
+    --font-open-sans: "Open Sans", Arial, Helvetica, sans-serif;
+    --font-source-code-pro: "Source Code Pro", Arial, Helvetica, sans-serif;
+    --font-roboto-mono: "Roboto Mono", Arial, Helvetica, sans-serif;
+    --font-outfit: "Outfit", Arial, Helvetica, sans-serif;
+
+    --card-white: rgb(255,255,255);    
+    --bg-primary: rgb(255,255,255);
+    --bg-container-primary: #23232e;
+    --bg-container-secondary: #141418;
+
+    --accent-color-secondary: #ff7eee;    
+    --accent-color-primary: #df49a6;    
+
+    --transition-speed: 200ms;
 }
