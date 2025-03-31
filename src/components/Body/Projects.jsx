@@ -8,7 +8,7 @@ export const Projects = () =>{
             <section id="projects" className={styles.mainSection}>
                 <div className={styles.sectionCard}>
                     <h2 className={styles.xl}>Projects</h2>
-                    <div className={styles.skillsContainer}>
+                    <div className={styles.projectContainer}>
                         
                         <div className={styles.projectCard}>                            
                             <img src={getImageUrl('projects/project.png')} alt="" />
