@@ -71,3 +71,27 @@
     text-shadow: 0 0 1rem rgba(0, 0, 0, .5);
     margin-bottom: 1rem;
 }
+
+
+@media screen and (max-width: 720px) {
+    .heroContainer{
+        max-width: 80vw;
+        margin: 0 auto;
+    }
+    .heroContainer img,
+    .heroContainer .filter{
+        display: none
+    }
+
+
+    .heroContainer .heroTitle {
+        font-size: 4rem; /* Adjusted font size for smaller screens */
+    }
+    .heroContainer .heroHook {
+        font-size: 1rem;
+    }
+    .heroContainer .heroDesc {
+        font-size: 1rem;
+    }
+    
+}
