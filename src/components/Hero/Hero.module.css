@@ -86,12 +86,15 @@
 
     .heroContainer .heroTitle {
         font-size: 4rem; /* Adjusted font size for smaller screens */
+        margin: 0 1rem;
     }
     .heroContainer .heroHook {
         font-size: 1rem;
+        margin: 0 1rem;
     }
     .heroContainer .heroDesc {
         font-size: 1rem;
+        margin: 0 1rem;
     }
     
 }
