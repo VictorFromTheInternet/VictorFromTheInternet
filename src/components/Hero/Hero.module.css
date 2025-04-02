@@ -74,14 +74,14 @@
 
 
 @media screen and (max-width: 720px) {
-    .heroContainer{
-        max-width: 80vw;
+    /* .heroContainer{
+        max-width: 100vw;
         margin: 0 auto;
-    }
-    .heroContainer img,
+    } */
+    /* .heroContainer img,
     .heroContainer .filter{
         display: none
-    }
+    } */
 
 
     .heroContainer .heroTitle {
