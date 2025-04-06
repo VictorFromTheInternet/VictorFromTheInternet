@@ -80,7 +80,7 @@
     z-index: 0;
 
     /* box-shadow: inset 50vh 0 3rem 3rem rgba(0, 0, 0, 0.5); */
-    background-image: url('assets/hero/hero image v2.png');
+    background-image: url('hero/hero image v2.png');
 
     
     background-size: cover;
@@ -115,7 +115,7 @@
     }
 
     .heroContainer .heroImage{
-        background-image: url('assets/hero/hero image mobile v2.png');;
+        background-image: url('hero/hero image mobile v2.png');;
     }
     
 }
