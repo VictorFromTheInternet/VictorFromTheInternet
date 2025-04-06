@@ -8,7 +8,7 @@ export const Experience = () =>{
                 <div className={styles.sectionCard}>
                     <h2 className={styles.xl}>Experience</h2>
                     <h3 className={`${styles.italic} ${styles.lg}`} > Guaranty Bank & Trust — Application Developer</h3>
-                    <p>
+                    
                         As a part of the I.T. and Business Systems Management departments, I help to improve several processes for the Bank’s internal functions. Some of the key projects I’ve worked on are:    
                         <ul className={styles.experienceList}>
                             <li>Invoice Processing Workflow 
@@ -33,7 +33,7 @@ export const Experience = () =>{
                                 </ul>
                             </li>
                         </ul>
-                    </p>                                                            
+                                                                  
            
                 </div>
                                
