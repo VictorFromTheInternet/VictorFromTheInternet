@@ -70,13 +70,18 @@
     
 }
 
-.footerMenu img{
-    transition: all 500ms ease-out;
+.footerMenu svg{
+    transition: all 200ms ease-out;
+    width: 50px;
+    height: 50px;
+
+    fill: white;
 }
 
-.footerMenu img:hover{
-    color: var(--color-primary);
-    width: 60px;
+.footerMenu a:hover svg{
+    /* color: var(--color-primary); */
+    fill: var(--accent-color-primary);    
+    /* width: 60px; */
 }
 
 .footerTitle{

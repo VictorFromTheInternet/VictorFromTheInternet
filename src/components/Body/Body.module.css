@@ -52,7 +52,7 @@
     align-items: center;
     justify-content: center;
     min-width: 100%;
-    margin: 4rem 0
+    margin: 4rem 0;
 }
 .sectionCard .contactsContainer .contactsMenu{
     display: flex;
@@ -69,7 +69,7 @@
 .contactsMenu li{
     background-color: var(--accent-color-primary);
     border-width: 0px;
-    border-radius: 3px;
+    border-radius: 8px;
 
     display: flex;
     align-items: center;
@@ -79,15 +79,19 @@
 .contactsMenu li svg{
     height: 50px;
     width: 50px;
-    /* padding: .25rem; */
+    fill: white;
+    transition: all 200ms ease-out;
 }
-/* .contactsMenu li a[title~="Email"] svg{
-    padding: .25rem;
-} */
+.contactsMenu li svg:hover{
+    fill: var(--accent-color-primary);
+}
 
 /* 
     About
 */
+.aboutMeContainer p{
+    text-align: center;
+}
 .cardText{
     background-color: rgba(230,240,250,1);
     border-width: 0px;
@@ -98,7 +102,22 @@
     /* min-width: 200px; */
     /* max-width: 400px; */
 }
-
+.cardText h4{
+    font-style: italic;
+    color: rgba(100,100,100,1);
+    font-size: 14px;    
+}
+.cardText h3{
+    margin: .25rem 0;
+}
+.cardText p{
+    text-align: justify;
+}
+.cardText .credit{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+}
 
 /* 
     Experience 
@@ -118,6 +137,11 @@
     background-color: var(--accent-color-secondary);
     padding: .5rem 0;
 }
+.skillsBanner h2{
+    color: white;
+    text-align: center;
+    margin: .5rem 0;
+}
 .skillsContainer{
     display: flex;
     justify-content: space-around;
@@ -134,9 +158,8 @@
     /* opacity: 1;
     transform: translate(400px); */
 }
-.skillsContainer img{
-    opacity: 1;
-    transform: translateX(0);
+.skillsContainer svg:hover{
+    cursor: pointer;
 }
 
 
@@ -216,6 +239,27 @@
 .lg{
     font-size: 1.5rem;
 }
+
+
+
+
+
+
+@media screen and (max-width: 400px){
+    .hero {
+        font-size: 3rem; /* Adjusted font size for smaller screens */
+    }
+    .xxl {
+        font-size: 2rem;
+    }
+    .xl {
+        font-size: 1.25rem;
+    }
+    .lg {
+        font-size: 1rem;
+    }
+}
+
 
 @media screen and (max-width: 720px){
     .hero {
