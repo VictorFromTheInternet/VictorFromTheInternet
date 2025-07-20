@@ -20,9 +20,9 @@ export const Navbar = () => {
                         <li>
                             <a href="#skills">Skills</a>
                         </li>
-                        <li>
+                        {/* <li>
                             <a href="#experience">Experience</a>
-                        </li>
+                        </li> */}
                         <li>
                             <a href="#projects">Projects</a>
                         </li>
@@ -52,9 +52,9 @@ export const Navbar = () => {
                     <li>
                         <a href="#experience">Skills</a>
                     </li>
-                    <li>
+                    {/* <li>
                         <a href="#experience">Experience</a>
-                    </li>
+                    </li> */}
                     <li>
                         <a href="#projects">Projects</a>
                     </li>

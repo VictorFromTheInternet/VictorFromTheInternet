@@ -31,7 +31,7 @@
     width: 100%;
 
     /* background-color: red; */
-    backdrop-filter: blur(10px);    
+    /* backdrop-filter: blur(10px);     */
     /* background: linear-gradient(rgba(100,100,100,.5), rgba(100,100,100,.15)); */
     background-color: var(--navbar-bg);
     border-radius: 6px;
@@ -138,9 +138,9 @@
 
         padding: 1rem;
 
-        backdrop-filter: blur(10px);    
+        /* backdrop-filter: blur(10px);     */
         /* background: linear-gradient(rgba(100,100,100,.5), rgba(100,100,100,.15)); */
-        background-color: var(--color-primary);
+        background-color: var(--navbar-bg);
         border-radius: 1rem;
 
         position: relative;
