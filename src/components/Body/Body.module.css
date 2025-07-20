@@ -106,12 +106,28 @@
 /* 
     Skills
 */
+.skillsBanner{
+    background-color: var(--accent-color-secondary);
+    padding: .5rem 0;
+}
 .skillsContainer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
     flex-wrap: wrap;
 }
+.skillsContainer img{
+    /* background: ; */
+
+    transition: all 200ms ease-out;
+    opacity: 1;
+    transform: translate(400px);
+}
+.skillsContainer img{
+    opacity: 1;
+    transform: translateX(0);
+}
+
 
 /* 
     projects 

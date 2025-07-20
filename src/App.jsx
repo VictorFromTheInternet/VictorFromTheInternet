@@ -14,8 +14,7 @@ function App() {
         <Hero></Hero>
         <Navbar></Navbar>
         <About></About>
-        <Skills></Skills>
-        <Experience></Experience>
+        <Skills></Skills>        
         <Projects></Projects>
         <Footer></Footer>
       </div>      

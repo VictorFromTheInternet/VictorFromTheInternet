@@ -8,8 +8,10 @@ import {getImageUrl} from '../../utils.js'
 export const Footer =()=>{
     return(
         <>
-            <div className={styles.footerContainer}>
-                <div className={styles.footer} id="contact">     
+            {/* <div className={styles.footerContainer}>
+                
+            </div> */}
+            <div className={styles.footer} id="contact">     
                     <div class={styles.footerMenuContainer}>
                         <a href={config.link_linkedin} aria-label="LinkedIn" title="LinkedIn">
                             <h2 className={styles.footerTitle} >
@@ -36,7 +38,6 @@ export const Footer =()=>{
                         </ul>          
                     </div>                          
                 </div>
-            </div>
         </>
     )
 }
