@@ -146,7 +146,7 @@
     height: 100%;
 
     backdrop-filter: blur(10px); 
-    background-color: rgba(200,200,200,.15);
+    background-color: rgba(240,240,250,1);
     /* background: linear-gradient(rgba(100,100,100,.5), rgba(0,0,0,0));     border-radius: 1rem; */
     border-radius: 1rem;    
 }
@@ -173,18 +173,19 @@
 }
 .projectCard a:hover img{
     filter: grayscale(100%);
-    transform: scale(110%);
+    /* transform: scale(102%); */
 }
 
 .projectCard a:hover .projectImgLabel{    
-        display: block;
-        position: relative;
-        text-align: center;
-        text-decoration: none;
-        color: white;
-        font-weight: bold;
-        top: -30%;
-        z-index: 5;            
+    display: block;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    top: -2rem;
+    z-index: 5;   
+    margin: -10px;         
 }
 
 

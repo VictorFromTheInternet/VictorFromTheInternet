@@ -7,7 +7,7 @@ export const Skills = () =>{
         <>
             <section id="skills" className={styles.skillsBanner}>
                 <div className={styles.skillsContainer}>
-                    <img src={getImageUrl('skills/figma.png')} alt="Figma" height="75" width="75" />                    
+                    <img src={getImageUrl('skills/figma.png')} ariaL-label="Figma" label="Figma" alt="Figma" height="75" width="75" />                    
                     <img src={getImageUrl('skills/tailwind.png')} alt="tailwind" height="75" width="75" />
                     <img src={getImageUrl('skills/react.png')} alt="react" height="75" width="75" />
                     <img src={getImageUrl('skills/node.png')} alt="node" height="75" width="75" />

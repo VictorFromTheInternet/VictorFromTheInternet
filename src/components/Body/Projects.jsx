@@ -12,21 +12,21 @@ export const Projects = () =>{
                     <div className={styles.projectContainer}>
                         
                         <div className={styles.projectCard}>        
-                            <a href={config.link_invoice_generator}>
+                            <a href={config.link_certificate_generator}>
                                 <img src={getImageUrl('projects/project.png')} alt="" />
                                 <h3 className={styles.projectImgLabel}>View Project</h3>
                             </a>                                                
-                            <h4>Invoice Generator</h4>
-                            <p>A full stack app to generate a templated invoice based on form data. The tools implemented are: Express, Puppeteer & Nunjucks </p>
+                            <h4>Certificate Generator</h4>
+                            <p>This is a frontend React application for generating certificates for an A-B honor roll. The export combines multiple pages into one pdf file.</p>
                         </div>
                         <div className={styles.projectCard}>
-                            <a href={config.link_json_to_csv}>
+                            <a href={config.link_qrcode_generator}>
                                 <img src={getImageUrl('projects/project.png')} alt="" />
                                 <h3 className={styles.projectImgLabel}>View Project</h3>
                             </a>                                                        
-                            <h4>JSON to CSV API</h4>
+                            <h4>QR Code Generator</h4>
                             <p>
-                                A Node.js API for converting JSON into a CSV formatted string, returned as base64 and a data url. 
+                                This is a simple frontend react app for generating qr codes from urls.
                             </p>
                         </div>
                         <div className={styles.projectCard}>   
