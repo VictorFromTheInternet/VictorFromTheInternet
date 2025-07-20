@@ -183,6 +183,7 @@
     background-color: rgba(230,240,250,1);
     /* background: linear-gradient(rgba(100,100,100,.5), rgba(0,0,0,0));     border-radius: 1rem; */
     border-radius: 1rem;    
+    padding-bottom: 3rem;
 }
 .projectCard img{
     width: 100%;
@@ -205,23 +206,31 @@
 .projectCard a{
     text-decoration: none;
 }
-.projectCard a:hover img{
-    filter: grayscale(100%);
-    /* transform: scale(102%); */
+.projectCard svg{
+    height: 2rem;
+    width: 2rem;
+    margin: .5rem;
+    transition: all 200ms ease-out;
+}
+.projectCard .sourceCodeIcon{
+    position: absolute;
+    bottom: .25rem;
+    left: calc(.5rem + 2rem + 1rem);
+    fill: var(--color-text);
+}
+.projectCard .sourceCodeIcon:hover{
+    fill: var(--accent-color-primary);
 }
 
-.projectCard a:hover .projectImgLabel{    
-    display: block;
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    top: -2rem;
-    z-index: 5;   
-    margin: -10px;         
+.projectCard .hostedProjectIcon{
+    position: absolute;
+    bottom: .25rem;
+    left: .25rem;
+    stroke: var(--color-text);
 }
-
+.projectCard .hostedProjectIcon:hover{
+    stroke: var(--accent-color-primary);
+}
 
 /* tweaks */
 .italic{
