@@ -28,6 +28,70 @@
 }
 
 
+
+/* row and cols */
+.sectionCard .row{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+    width: 100%;
+    /* min-width: 600px; */
+}
+.sectionCard .col{
+    flex: 1 1 300px;
+}
+
+/* .sectionCard .aboutMeContainer{
+    min-width: 400px;
+} */
+
+.sectionCard .contactsContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-width: 100%;
+    margin: 4rem 0
+}
+.sectionCard .contactsContainer .contactsMenu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 100%;
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+.contactsMenu li{
+    background-color: var(--accent-color-primary);
+    border-width: 0px;
+    border-radius: 3px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .25rem;
+}
+
+/* 
+    About
+*/
+.cardText{
+    background-color: rgba(240,240,250,1);
+    border-width: 0px;
+    border-radius: 6px;
+    padding: .75rem;
+    margin: 1rem 0;
+
+    /* min-width: 200px; */
+    /* max-width: 400px; */
+}
+
+
 /* 
     Experience 
 */

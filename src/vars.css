@@ -9,15 +9,29 @@ Source Code Pro
 
 :root{
     /* color pallete */
-    --color-text: white;
+    --color-text: #232426;
+    --color-text-hero: white;
+
+    --navbar-bg: rgb(23 103 111 / 75%);
+
+    --accent-color-secondary: #3f5362;    
+    --accent-color-primary: rgb(23 103 111 / 75%);    
+    /* --accent-color-primary: #405e61;     */
+
+    --transition-speed: 200ms;
+
+
+
+
+
     /* --color-primary: #576cbc;
     --color-secondary: #19376d;
     --color-dark: #0b2447;
     --color-bg: #04152d; */
-    --color-primary: #576cbc;
+    /* --color-primary: #001F2C;
     --color-secondary: #19376d;
     --color-dark: #0b2447;
-    --color-bg: #232426;
+    --color-bg: white;
 
     --color-bg-primary: #61dafb;
     --color-bg-secondary: #61dafb;
@@ -25,7 +39,7 @@ Source Code Pro
     --color-ui-secondary: #61dafb;
     --color-ui-accent: #61dafb;
     --white: #fff;
-    --black: #000;
+    --black: #000; */
 
     /* font vars */
     --font-roboto: "Roboto", Arial, Helvetica, sans-serif;
@@ -40,8 +54,5 @@ Source Code Pro
     --bg-container-primary: #23232e;
     --bg-container-secondary: #141418;
 
-    --accent-color-secondary: #3f5362;    
-    --accent-color-primary: #405e61;    
-
-    --transition-speed: 200ms;
+    
 }
