@@ -144,10 +144,48 @@
 }
 .skillsContainer{
     display: flex;
-    justify-content: space-around;
-    width: 100%;
-    flex-wrap: wrap;
+    /* justify-content: center; */
+    width: 75vw;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    /* flex-wrap: nowrap; */
 }
+.skillsContainer ul{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: nowrap; */
+
+    flex-shrink: 0;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin: 0 2rem 0 0;
+    padding: 0;    
+    gap: 2rem;
+    
+    animation: scroll 60s linear infinite;
+}
+
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-100% - 32px));
+    }
+}
+/* .skillsContainer ul:first-child li{
+    background-color: red;
+}
+.skillsContainer ul:last-child li{
+    background-color: blue;
+} */
+.skillsContainer:hover ul{
+    animation-play-state: paused;
+}
+
+
 .skillsContainer img,
 .skillsContainer svg{
     /* background: ; */
@@ -232,6 +270,12 @@
     stroke: var(--accent-color-primary);
 }
 
+
+
+
+
+
+
 /* tweaks */
 .italic{
     font-style: italic;
@@ -250,7 +294,7 @@
 }
 
 
-
+/* inginite side scroll animation for skills banner */
 
 
 
