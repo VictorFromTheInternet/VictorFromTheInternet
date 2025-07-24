@@ -39,13 +39,13 @@ export const Projects = () =>{
 
                         <div className={styles.projectCard}>                              
                             <img src={getImageUrl('projects/project.png')} alt="" />                                                    
-                            <h4>QR Code Generator</h4>
+                            <h4>Supabase Dashboard</h4>
                             <p>
-                                This is a simple frontend react app for generating qr codes from urls.
+                                This is a demo app for demonstrating email and password authentication using Supabase's SDK. The dashboard is build using GridJS.
                             </p>
 
                             {/* hosted project */}
-                            <a href={config.link_qrcode_generator} target="_blank" title="Hosted Project" >                                                            
+                            <a href={config.link_supabase_login} target="_blank" title="Hosted Project" >                                                            
                                 <svg className={styles.hostedProjectIcon}  aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                                 <path  stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 14v4.833A1.166 1.166 0 0 1 16.833 20H5.167A1.167 1.167 0 0 1 4 18.833V7.167A1.166 1.166 0 0 1 5.167 6h4.618m4.447-2H20v5.768m-7.889 2.121 7.778-7.778"/>
                                 </svg>
@@ -53,7 +53,7 @@ export const Projects = () =>{
                             
 
                             {/* github link */}
-                            <a href={config.link_qrcode_generator_source} target="_blank" title="Source Code">                                                          
+                            <a href={config.link_supabase_login_source} target="_blank" title="Source Code">                                                          
                                 <svg className={styles.sourceCodeIcon} xmlns="http://www.w3.org/2000/svg" width={100} height={100} viewBox="0 0 256 256">
                                     <g  fillRule="nonzero" stroke="none" strokeWidth={1} strokeLinecap="butt" strokeLinejoin="miter" strokeMiterlimit={10} fontFamily="none" fontWeight="none" fontSize="none" textAnchor="none">
                                         <g transform="scale(10.66667,10.66667)">
