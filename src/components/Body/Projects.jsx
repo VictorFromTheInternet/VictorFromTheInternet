@@ -67,7 +67,7 @@ export const Projects = () =>{
                         <div className={styles.projectCard}>   
                             <img src={getImageUrl('projects/project.png')} alt="" />      
                             <h4>Color Reducer</h4>
-                            <p>This project lets the user select colors and create a color-reduced version of the image. It works by creating a new array of rounded pixel values for the output image.</p>
+                            <p>This full stack project lets the user select colors and create a color-reduced version of an uploaded image. It works by rounding the pixel values to their closest match based on their x/y/z - Red/Green/Blue values on a 3-dimensional plane (utilizing the distance formula).</p>
 
                             {/* hosted project */}
                             <a href={config.link_color_reducer} target="_blank" title="Hosted Project" >                                                            
