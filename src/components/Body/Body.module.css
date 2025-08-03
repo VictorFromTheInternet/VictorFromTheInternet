@@ -135,20 +135,21 @@
 */
 .skillsBanner{
     background-color: var(--accent-color-secondary);
-    padding: .5rem 0;
+    padding: 2rem 0;
 }
 .skillsBanner h2{
     color: white;
     text-align: center;
-    margin: .5rem 0;
+    margin: 1rem 0 2rem 0;
 }
 .skillsContainer{
     display: flex;
     /* justify-content: center; */
     width: calc(100vw - 16px); /* to fix x-overflow bug  */
     overflow: hidden;
-    margin: 0 auto;
+    margin: 0 auto;    
     position: relative;
+    padding: 1rem 0;
     /* flex-wrap: nowrap; */    
 }
 .skillsContainer ul{
@@ -165,15 +166,26 @@
     gap: 2rem;
     overflow: hidden;    
     
-    animation: scroll 60s linear infinite;
+    animation: scrollLeft 45s linear infinite;
+}
+.skillsContainer ul.scrollRight{       
+    animation: scrollRight 45s linear infinite;
 }
 
-@keyframes scroll{
-    0%{
+@keyframes scrollLeft{
+    from{
         transform: translateX(0);
     }
-    100%{
+    to{
         transform: translateX(calc(-100% - 32px));
+    }
+}
+@keyframes scrollRight{
+    from{
+        transform: translateX(calc(-100% - 32px));
+    }
+    to{
+        transform: translateX(0);
     }
 }
 /* .skillsContainer ul:first-child li{
@@ -185,16 +197,16 @@
 .skillsContainer:hover ul{
     animation-play-state: paused;
 }
-.skillsContainer ul li:hover svg{
+/* .skillsContainer ul li:hover svg{
     stroke: white;
-}
+} */
 
 
 .skillsContainer img,
 .skillsContainer svg{
     /* background: ; */
-    height: 75px;
-    width: 75px;
+    height: 25px;
+    width: 25px;
 
     transition: all 200ms ease-out;
     /* opacity: 1;
@@ -202,6 +214,20 @@
 }
 .skillsContainer svg:hover{
     cursor: pointer;
+}
+
+.skillsContainer li{
+    font-size: 1rem;
+    color: white;
+
+    background-color: var(--accent-color-primary);
+    padding: 1rem;
+    border-radius: 2rem;
+
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: .5rem;
 }
 
 
