@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './Footer.module.css'
+import './Footer.css'
 import config from './Footer.config.json'
 
 // icons
@@ -8,18 +8,18 @@ import {getImageUrl} from '../../utils.js'
 export const Footer =()=>{
     return(
         <>
-            {/* <div className={styles.footerContainer}>
+            {/* <div className="footer-container">
                 
             </div> */}
-            <div className={styles.footer} id="contact">     
-                    <div class={styles.footerMenuContainer}>
+            <div className="footer" id="contact">     
+                    <div class="footer-menu-container">
                         <a href={config.link_linkedin} aria-label="LinkedIn" title="LinkedIn">
-                            <h2 className={styles.footerTitle} >
+                            <h2 className="footer-title" >
                                 Contact Me                      
                             </h2>
                         </a>                        
 
-                        <ul className={styles.footerMenu}>
+                        <ul className="footer-menu">
                             <li>
                                 <a href={config.link_email} aria-label="Email" title="Email" target="_blank">
                                     {/* <img src={getImageUrl('/contact/emailIcon.png')} alt="Email" aria-label="Email" /> */}

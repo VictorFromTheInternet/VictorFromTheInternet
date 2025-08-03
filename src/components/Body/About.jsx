@@ -1,21 +1,21 @@
 import React from 'react'
-import styles from './Body.module.css'
+import './Body.css'
 import config from './Body.config.json'
 import {getImageUrl} from '../../utils.js'
 
 export const About = () =>{
     return(
         <>
-            <section id="about" className={styles.mainSection}>
-                <div className={styles.sectionCard}>
-                    <div className={styles.row}>
-                        <div className={`${styles.col} ${styles.aboutMeContainer}`}>
-                            <h2 className={styles.hero}>About Me</h2>
-                            <p className={styles.xl}>
+            <section id="about" className="main-section">
+                <div className="section-card">
+                    <div className="row">
+                        <div className="col about-me-container">
+                            <h2 className="hero">About Me</h2>
+                            <p className="xl">
                                 👋 Hi, my name is Victor, I'm a full-stack developer, with a passion for solving technical problems and making lives easier with code. 
                             </p>  
-                            <div className={styles.contactsContainer}>
-                                <ul className={styles.contactsMenu}>
+                            <div className="contacts-container">
+                                <ul className="contacts-menu">
                                     <li>
                                         <a href={config.link_email} aria-label="Email" title="Email" target="_blank">
                                             <title>Email</title>
@@ -55,10 +55,10 @@ export const About = () =>{
                                 </ul>          
                             </div>
                         </div>
-                        <div className={styles.col}>
+                        <div className="col">
 
-                            <div className={styles.cardText}>
-                                <div className={styles.credit}>
+                            <div className="card-text">
+                                <div className="credit">
                                     <h4>Guaranty Bank & Trust</h4>
                                     <h4>2022 - Present</h4>
                                 </div>
@@ -66,8 +66,8 @@ export const About = () =>{
                                 <p>Developed and Maintained internal business applications for workflow automation on <em>Unqork</em> and <em>Microsoft Power Apps.</em></p>
                             </div>
 
-                            <div className={styles.cardText}>
-                                <div className={styles.credit}>
+                            <div className="card-text">
+                                <div className="credit">
                                     <h4>Northeast Texas Community College</h4>
                                     <h4>2022</h4>
                                 </div>                                
@@ -75,8 +75,8 @@ export const About = () =>{
                                 <p>Studied the fundamentals of computer science and theory. The languages within the curriculum were: C++ and Java (D.S. Malik) </p>
                             </div>
 
-                            <div className={styles.cardText}>
-                                <div className={styles.credit}>
+                            <div className="card-text">
+                                <div className="credit">
                                     <h4>Northeast Texas Community College</h4>
                                     <h4>2022</h4>
                                 </div>     

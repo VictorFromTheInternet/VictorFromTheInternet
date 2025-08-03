@@ -1,13 +1,13 @@
 import React from 'react'
-import styles from './Body.module.css'
+import './Body.css'
 import {getImageUrl} from '../../utils.js'
 
 export const Skills = () =>{
     return(
         <>
-            <section id="skills" className={styles.skillsBanner}>
-                <h2 className={styles.xl}>My Tech Stack</h2>
-                <div className={styles.skillsContainer}>                    
+            <section id="skills" className="skills-banner">
+                <h2 className="xl">My Tech Stack</h2>
+                <div className="skills-container">                    
                     <ul>                        
                         <li>{/* figma */}                                                   
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><path fill="#0acf83" d="M45.5 129c11.9 0 21.5-9.6 21.5-21.5V86H45.5C33.6 86 24 95.6 24 107.5S33.6 129 45.5 129zm0 0"/><path fill="#a259ff" d="M24 64.5C24 52.6 33.6 43 45.5 43H67v43H45.5C33.6 86 24 76.4 24 64.5zm0 0"/><path fill="#f24e1e" d="M24 21.5C24 9.6 33.6 0 45.5 0H67v43H45.5C33.6 43 24 33.4 24 21.5zm0 0"/><path fill="#ff7262" d="M67 0h21.5C100.4 0 110 9.6 110 21.5S100.4 43 88.5 43H67zm0 0"/><path fill="#1abcfe" d="M110 64.5c0 11.9-9.6 21.5-21.5 21.5S67 76.4 67 64.5 76.6 43 88.5 43 110 52.6 110 64.5zm0 0"/></svg>
@@ -153,14 +153,12 @@ export const Skills = () =>{
                         </li>
                     </ul>
 
-                    <div className={styles.skillsBannerFilterLeft}></div>                                                                                                                        
-                    <div className={styles.skillsBannerFilterRight}></div>
-                </div>  
+                    <div className="skills-banner-filter-left"></div>                                                                                                                        
+                    <div className="skills-banner-filter-right"></div>
+                </div>
 
-                <div className={styles.skillsContainer}>                    
-                    <ul className={styles.scrollRight}>   
-
-                        {/* Unqork */}
+                <div className="skills-container">                    
+                    <ul className="scroll-right">                        {/* Unqork */}
                         <li>
                             <img src={getImageUrl("skills/unqork_logo.jpg")} alt="" />
                             <span>Unqork</span>
@@ -205,7 +203,7 @@ export const Skills = () =>{
                     </ul>                                                                
 
                     {/* duplicate list to cover up gap in animation */}
-                    <ul aria-hidden="true" className={styles.scrollRight}>   
+                    <ul aria-hidden="true" className="scroll-right">   
                         {/* Unqork */}
                         <li>
                             <img src={getImageUrl("skills/unqork_logo.jpg")} alt="" />
@@ -249,8 +247,8 @@ export const Skills = () =>{
                         </li>
                     </ul>
 
-                    <div className={styles.skillsBannerFilterLeft}></div>                                                                                                                        
-                    <div className={styles.skillsBannerFilterRight}></div>
+                    <div className="skills-banner-filter-left"></div>                                                                                                                        
+                    <div className="skills-banner-filter-right"></div>
                 </div>                                
             </section>
         </>
