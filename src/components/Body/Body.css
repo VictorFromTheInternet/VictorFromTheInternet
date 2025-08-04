@@ -1,6 +1,6 @@
 @import '../../vars.css';
 
-.mainSection{
+.main-section{
     min-height: 80vh;
     padding-top: 20vh;
 
@@ -9,7 +9,7 @@
     margin: 0 auto;
 }
 
-.sectionCard{
+.section-card{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -30,7 +30,7 @@
 
 
 /* row and cols */
-.sectionCard .row{
+.section-card .row{
     display: flex;
     flex-direction: row;
     gap: 1rem;
@@ -38,15 +38,15 @@
     width: 100%;
     /* min-width: 600px; */
 }
-.sectionCard .col{
+.section-card .col{
     flex: 1 1 300px;
 }
 
-/* .sectionCard .aboutMeContainer{
+/* .section-card .about-me-container{
     min-width: 400px;
 } */
 
-.sectionCard .contactsContainer{
+.section-card .contacts-container{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -54,7 +54,7 @@
     min-width: 100%;
     margin: 4rem 0;
 }
-.sectionCard .contactsContainer .contactsMenu{
+.section-card .contacts-container .contacts-menu{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -66,7 +66,7 @@
     padding: 0;
     
 }
-.contactsMenu li{
+.contacts-menu li{
     background-color: var(--accent-color-primary);
     border-width: 0px;
     border-radius: 8px;
@@ -76,23 +76,23 @@
     justify-content: center;
     padding: .25rem;
 }
-.contactsMenu li svg{
+.contacts-menu li svg{
     height: 50px;
     width: 50px;
     fill: white;
     transition: all 200ms ease-out;
 }
-.contactsMenu li svg:hover{
+.contacts-menu li svg:hover{
     fill: var(--accent-color-primary);
 }
 
 /* 
     About
 */
-.aboutMeContainer p{
+.about-me-container p{
     text-align: center;
 }
-.cardText{
+.card-text{
     background-color: rgba(230,240,250,1);
     border-width: 0px;
     border-radius: 6px;
@@ -102,18 +102,18 @@
     /* min-width: 200px; */
     /* max-width: 400px; */
 }
-.cardText h4{
+.card-text h4{
     font-style: italic;
     color: rgba(100,100,100,1);
     font-size: 14px;    
 }
-.cardText h3{
+.card-text h3{
     margin: .25rem 0;
 }
-.cardText p{
+.card-text p{
     text-align: justify;
 }
-.cardText .credit{
+.card-text .credit{
     display: flex;
     flex-direction: row;
     justify-content: space-between;    
@@ -122,27 +122,27 @@
 /* 
     Experience 
 */
-.experienceList ul,
-.experienceList li{
+.experience-list ul,
+.experience-list li{
     margin-left: 20px !important;        
 }
-.experienceList{    
+.experience-list{    
     margin: .5rem;
 }
 
 /* 
     Skills
 */
-.skillsBanner{
+.skills-banner{
     background-color: var(--accent-color-secondary);
     padding: 2rem 0;
 }
-.skillsBanner h2{
+.skills-banner h2{
     color: white;
     text-align: center;
     margin: 1rem 0 2rem 0;
 }
-.skillsContainer{
+.skills-container{
     display: flex;
     /* justify-content: center; */
     width: calc(100vw - 16px); /* to fix x-overflow bug  */
@@ -152,7 +152,7 @@
     padding: 1rem 0;
     /* flex-wrap: nowrap; */    
 }
-.skillsContainer ul{
+.skills-container ul{
     display: flex;
     flex-direction: row;
     /* flex-wrap: nowrap; */
@@ -168,7 +168,7 @@
     
     animation: scrollLeft 45s linear infinite;
 }
-.skillsContainer ul.scrollRight{       
+.skills-container ul.scroll-right{       
     animation: scrollRight 45s linear infinite;
 }
 
@@ -188,22 +188,22 @@
         transform: translateX(0);
     }
 }
-/* .skillsContainer ul:first-child li{
+/* .skills-container ul:first-child li{
     background-color: red;
 }
-.skillsContainer ul:last-child li{
+.skills-container ul:last-child li{
     background-color: blue;
 } */
-.skillsContainer:hover ul{
+.skills-container:hover ul{
     animation-play-state: paused;
 }
-/* .skillsContainer ul li:hover svg{
+/* .skills-container ul li:hover svg{
     stroke: white;
 } */
 
 
-.skillsContainer img,
-.skillsContainer svg{
+.skills-container img,
+.skills-container svg{
     /* background: ; */
     height: 25px;
     width: 25px;
@@ -212,11 +212,11 @@
     /* opacity: 1;
     transform: translate(400px); */
 }
-.skillsContainer svg:hover{
+.skills-container svg:hover{
     cursor: pointer;
 }
 
-.skillsContainer li{
+.skills-container li{
     font-size: 1rem;
     color: white;
 
@@ -231,7 +231,7 @@
 }
 
 
-.skillsBannerFilterLeft{
+.skills-banner-filter-left{
     z-index: 100;
     position: absolute;
     left: 0;
@@ -240,7 +240,7 @@
     height: 100%;
     background: linear-gradient(.90turn, rgba(0,0,0,0),rgba(0,0,0,0),var(--accent-color-secondary));
 }
-.skillsBannerFilterRight{
+.skills-banner-filter-right{
     z-index: 100;
     position: absolute;
     right: 0;
@@ -253,14 +253,14 @@
 /* 
     projects 
 */
-.projectContainer{
+.project-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 1rem;
     max-width: 100%;
     height: 100%;    
 }
-.projectCard{
+.project-card{
     overflow: clip;
 
     width: 100%;
@@ -273,57 +273,57 @@
     padding-bottom: 3rem;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, .25);
 }
-.projectImageContainer {
+.project-image-container {
     height: 200px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 8px 8px 0 0; /* optional */
 }
-.projectCard img{
+.project-card img{
     width: 100%;
     max-height: 100%;
     border-radius: 0;
 
     transition: all var(--transition-speed) ease-out;
 }
-.projectCard h4,
-.projectCard p{
+.project-card h4,
+.project-card p{
     margin: .5rem;
     text-align: justify;
 }
 
-.projectImgLabel{
+.project-img-label{
     display: none;
     transition: all var(--transition-speed) ease-out;
 }
 
-.projectCard a{
+.project-card a{
     text-decoration: none;
 }
-.projectCard svg{
+.project-card svg{
     height: 2rem;
     width: 2rem;
     margin: .5rem;
     transition: all 200ms ease-out;
 }
-.projectCard .sourceCodeIcon{
+.project-card .source-code-icon{
     position: absolute;
     bottom: .25rem;
     left: calc(.5rem + 2rem + 1rem);
     fill: var(--color-text);
 }
-.projectCard .sourceCodeIcon:hover{
+.project-card .source-code-icon:hover{
     fill: var(--accent-color-primary);
 }
 
-.projectCard .hostedProjectIcon{
+.project-card .hosted-project-icon{
     position: absolute;
     bottom: .25rem;
     left: .25rem;
     stroke: var(--color-text);
 }
-.projectCard .hostedProjectIcon:hover{
+.project-card .hosted-project-icon:hover{
     stroke: var(--accent-color-primary);
 }
 

@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import styles from './Hero.module.css'
+import './Hero.css'
 import {getImageUrl} from '../../utils.js'
 
 export const Hero = () =>{
@@ -7,20 +7,20 @@ export const Hero = () =>{
 
     return(
         <>
-            <section id="hero" className={styles.heroContainer}>
-                <div className={styles.filter}></div>
+            <section id="hero" className="hero-container">
+                <div className="filter"></div>
 
-                <div className={styles.heroSectionCard}>
+                <div className="hero-section-card">
                     
-                    <div className={styles.heroImage} >
+                    <div className="hero-image" >
                     </div>
                     
-                    <h1 className={styles.heroTitle}>Victor Arreola</h1>
-                    <p className={styles.heroHook}>
+                    <h1 className="hero-title">Victor Arreola</h1>
+                    <p className="hero-hook">
                     Meet your friendly neighborhood software developer 
                     </p>         
 
-                    <p className={styles.heroDesc}>
+                    <p className="hero-desc">
                     Let's make something together 🤝
                     </p>           
                 </div>                
