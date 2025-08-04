@@ -14,7 +14,7 @@ export const Projects = () =>{
                         <div className="project-card">        
                             <div
                                 className="project-image-container" 
-                                style={{ backgroundImage: `url(${getImageUrl('projects/certificate generator.png')})` }}
+                                style={{ backgroundImage: `url(${getImageUrl('projects/certificate_generator.png')})` }}
                             >
                             </div>                                                                             
                             <h4>Certificate Generator</h4>
@@ -44,7 +44,7 @@ export const Projects = () =>{
                         <div className="project-card">                              
                             <div
                                 className="project-image-container" 
-                                style={{ backgroundImage: `url(${getImageUrl('projects/Supabase Login.png')})` }}
+                                style={{ backgroundImage: `url(${getImageUrl('projects/Supabase_Login.png')})` }}
                                 >
                                 {/* <img src={getImageUrl('projects/Supabase Login.png')} alt="" /> */}
                             </div>                            
@@ -76,7 +76,7 @@ export const Projects = () =>{
                         <div className="project-card">   
                             <div
                                 className="project-image-container" 
-                                style={{ backgroundImage: `url(${getImageUrl('projects/Color Reducer.png')})` }}
+                                style={{ backgroundImage: `url(${getImageUrl('projects/Color_Reducer.png')})` }}
                             >
                             </div>      
                             <h4>Color Reducer</h4>
