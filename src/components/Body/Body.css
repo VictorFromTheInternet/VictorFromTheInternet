@@ -326,7 +326,19 @@
 .project-card .hosted-project-icon:hover{
     stroke: var(--accent-color-primary);
 }
-
+.project-card-skills{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0 .5rem;
+}
+.project-card-skills span{
+    background-color: var(--accent-color-primary);
+    color: var(--accent-color-secondary);
+    border-radius: 6px;
+    padding: .25rem .5rem;
+}
 
 
 
