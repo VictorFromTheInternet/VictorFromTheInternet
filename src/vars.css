@@ -16,6 +16,7 @@ Source Code Pro
 
     --accent-color-secondary: #013238;    
     --accent-color-primary: rgb(23 103 111 / 75%);    
+    --accent-color-primary-light: rgb(23 103 111 / 25%);   
     /* --accent-color-primary: #405e61;     */    
 
     --transition-speed: 200ms;

@@ -89,6 +89,9 @@
 /* 
     About
 */
+h2[class~="hero"]{
+    text-align: center;
+}
 .about-me-container p{
     text-align: center;
 }
@@ -334,7 +337,7 @@
     padding: 0 .5rem;
 }
 .project-card-skills span{
-    background-color: var(--accent-color-primary);
+    background-color: var(--accent-color-primary-light);
     color: var(--accent-color-secondary);
     border-radius: 6px;
     padding: .25rem .5rem;
